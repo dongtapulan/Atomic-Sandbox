@@ -1,0 +1,502 @@
+{
+  "1": {
+    "symbol": "H",
+    "name": "Hydrogen",
+    "protons": 1,
+    "neutrons": 0,
+    "shells": [1],
+    "color": "#ff4d4d",
+    "category": "nonmetal",
+    "description": "The lightest and most abundant element in the universe."
+  },
+  "2": {
+    "symbol": "He",
+    "name": "Helium",
+    "protons": 2,
+    "neutrons": 2,
+    "shells": [2],
+    "color": "#ffb347",
+    "category": "noble gas",
+    "description": "A colorless, odorless, non-toxic, inert gas."
+  },
+  "3": {
+    "symbol": "Li",
+    "name": "Lithium",
+    "protons": 3,
+    "neutrons": 4,
+    "shells": [2, 1],
+    "color": "#b19cd9",
+    "category": "alkali metal",
+    "description": "The lightest metal and the least dense solid element."
+  },
+  "4": {
+    "symbol": "Be",
+    "name": "Beryllium",
+    "protons": 4,
+    "neutrons": 5,
+    "shells": [2, 2],
+    "color": "#77dd77",
+    "category": "alkaline earth metal",
+    "description": "A strong, lightweight, and brittle alkaline earth metal."
+  },
+  "5": {
+    "symbol": "B",
+    "name": "Boron",
+    "protons": 5,
+    "neutrons": 6,
+    "shells": [2, 3],
+    "color": "#ff6961",
+    "category": "metalloid",
+    "description": "A metalloid used in rocket fuel igniters."
+  },
+  "6": {
+    "symbol": "C",
+    "name": "Carbon",
+    "protons": 6,
+    "neutrons": 6,
+    "shells": [2, 4],
+    "color": "#4a4a4a",
+    "category": "nonmetal",
+    "description": "The building block of all known life on Earth."
+  },
+  "7": {
+    "symbol": "N",
+    "name": "Nitrogen",
+    "protons": 7,
+    "neutrons": 7,
+    "shells": [2, 5],
+    "color": "#aec6cf",
+    "category": "nonmetal",
+    "description": "Makes up 78% of the Earth's atmosphere."
+  },
+  "8": {
+    "symbol": "O",
+    "name": "Oxygen",
+    "protons": 8,
+    "neutrons": 8,
+    "shells": [2, 6],
+    "color": "#2dccff",
+    "category": "nonmetal",
+    "description": "A highly reactive nonmetal and oxidizing agent."
+  },
+  "9": {
+    "symbol": "F",
+    "name": "Fluorine",
+    "protons": 9,
+    "neutrons": 10,
+    "shells": [2, 7],
+    "color": "#fdfd96",
+    "category": "halogen",
+    "description": "The most electronegative and reactive of all elements."
+  },
+  "10": {
+    "symbol": "Ne",
+    "name": "Neon",
+    "protons": 10,
+    "neutrons": 10,
+    "shells": [2, 8],
+    "color": "#ffb7ce",
+    "category": "noble gas",
+    "description": "Famous for its use in bright, glowing signs."
+  },
+  "11": {
+    "symbol": "Na",
+    "name": "Sodium",
+    "protons": 11,
+    "neutrons": 12,
+    "shells": [2, 8, 1],
+    "color": "#b19cd9",
+    "category": "alkali metal",
+    "description": "A soft, silvery-white, highly reactive metal."
+  },
+  "12": {
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "protons": 12,
+    "neutrons": 12,
+    "shells": [2, 8, 2],
+    "color": "#77dd77",
+    "category": "alkaline earth metal",
+    "description": "A shiny gray metal that burns with a brilliant white light."
+  },
+  "13": {
+    "symbol": "Al",
+    "name": "Aluminum",
+    "protons": 13,
+    "neutrons": 14,
+    "shells": [2, 8, 3],
+    "color": "#aec6cf",
+    "category": "post-transition metal",
+    "description": "The most abundant metal in the Earth's crust."
+  },
+  "14": {
+    "symbol": "Si",
+    "name": "Silicon",
+    "protons": 14,
+    "neutrons": 14,
+    "shells": [2, 8, 4],
+    "color": "#ff6961",
+    "category": "metalloid",
+    "description": "A semiconductor that is the basis for all modern computer chips."
+  },
+  "15": {
+    "symbol": "P",
+    "name": "Phosphorus",
+    "protons": 15,
+    "neutrons": 16,
+    "shells": [2, 8, 5],
+    "color": "#ff4d4d",
+    "category": "nonmetal",
+    "description": "Essential for life, found in DNA and cell membranes."
+  },
+  "16": {
+    "symbol": "S",
+    "name": "Sulfur",
+    "protons": 16,
+    "neutrons": 16,
+    "shells": [2, 8, 6],
+    "color": "#fdfd96",
+    "category": "nonmetal",
+    "description": "A bright yellow nonmetal often associated with hot springs."
+  },
+  "17": {
+    "symbol": "Cl",
+    "name": "Chlorine",
+    "protons": 17,
+    "neutrons": 18,
+    "shells": [2, 8, 7],
+    "color": "#77dd77",
+    "category": "halogen",
+    "description": "A yellow-green gas used to keep swimming pools clean."
+  },
+  "18": {
+    "symbol": "Ar",
+    "name": "Argon",
+    "protons": 18,
+    "neutrons": 22,
+    "shells": [2, 8, 8],
+    "color": "#ffb347",
+    "category": "noble gas",
+    "description": "An inert gas often used in high-quality double-pane windows."
+  },
+  "19": {
+    "symbol": "K",
+    "name": "Potassium",
+    "protons": 19,
+    "neutrons": 20,
+    "shells": [2, 8, 8, 1],
+    "color": "#b19cd9",
+    "category": "alkali metal",
+    "description": "A highly reactive metal crucial for nerve and muscle function."
+  },
+  "20": {
+    "symbol": "Ca",
+    "name": "Calcium",
+    "protons": 20,
+    "neutrons": 20,
+    "shells": [2, 8, 8, 2],
+    "color": "#77dd77",
+    "category": "alkaline earth metal",
+    "description": "A silver-gray metal essential for bone and dental health."
+  },
+  "21": {
+    "symbol": "Sc",
+    "name": "Scandium",
+    "protons": 21,
+    "neutrons": 24,
+    "shells": [2, 8, 9, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "A silvery-white metallic transition element."
+  },
+  "22": {
+    "symbol": "Ti",
+    "name": "Titanium",
+    "protons": 22,
+    "neutrons": 26,
+    "shells": [2, 8, 10, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Strong, low-density, and highly corrosion-resistant metal."
+  },
+  "23": {
+    "symbol": "V",
+    "name": "Vanadium",
+    "protons": 23,
+    "neutrons": 28,
+    "shells": [2, 8, 11, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "A hard, silvery-grey, malleable transition metal."
+  },
+  "24": {
+    "symbol": "Cr",
+    "name": "Chromium",
+    "protons": 24,
+    "neutrons": 28,
+    "shells": [2, 8, 13, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Famous for its use in stainless steel and chrome plating."
+  },
+  "25": {
+    "symbol": "Mn",
+    "name": "Manganese",
+    "protons": 25,
+    "neutrons": 30,
+    "shells": [2, 8, 13, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Essential for steelmaking and found in many minerals."
+  },
+  "26": {
+    "symbol": "Fe",
+    "name": "Iron",
+    "protons": 26,
+    "neutrons": 30,
+    "shells": [2, 8, 14, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "The most common element on Earth by mass, forming much of the core."
+  },
+  "27": {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "protons": 27,
+    "neutrons": 32,
+    "shells": [2, 8, 15, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "A hard, lustrous, silver-grey metal used in high-strength alloys."
+  },
+  "28": {
+    "symbol": "Ni",
+    "name": "Nickel",
+    "protons": 28,
+    "neutrons": 31,
+    "shells": [2, 8, 16, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Used extensively in coins, batteries, and stainless steel."
+  },
+  "29": {
+    "symbol": "Cu",
+    "name": "Copper",
+    "protons": 29,
+    "neutrons": 35,
+    "shells": [2, 8, 18, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Highly conductive metal used in electrical wiring."
+  },
+  "30": {
+    "symbol": "Zn",
+    "name": "Zinc",
+    "protons": 30,
+    "neutrons": 35,
+    "shells": [2, 8, 18, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Used to galvanize steel and essential for biological health."
+  },
+  "31": {
+    "symbol": "Ga",
+    "name": "Gallium",
+    "protons": 31,
+    "neutrons": 39,
+    "shells": [2, 8, 18, 3],
+    "color": "#aec6cf",
+    "category": "post-transition metal",
+    "description": "A soft, silvery metal that can literally melt in your hand."
+  },
+  "32": {
+    "symbol": "Ge",
+    "name": "Germanium",
+    "protons": 32,
+    "neutrons": 41,
+    "shells": [2, 8, 18, 4],
+    "color": "#ff6961",
+    "category": "metalloid",
+    "description": "A lustrous, hard, grayish-white metalloid used in fiber optics."
+  },
+  "33": {
+    "symbol": "As",
+    "name": "Arsenic",
+    "protons": 33,
+    "neutrons": 42,
+    "shells": [2, 8, 18, 5],
+    "color": "#ff6961",
+    "category": "metalloid",
+    "description": "A famous metalloid known for its toxicity and use in alloys."
+  },
+  "34": {
+    "symbol": "Se",
+    "name": "Selenium",
+    "protons": 34,
+    "neutrons": 45,
+    "shells": [2, 8, 18, 6],
+    "color": "#ff4d4d",
+    "category": "nonmetal",
+    "description": "Essential for health in trace amounts, but toxic in large doses."
+  },
+  "35": {
+    "symbol": "Br",
+    "name": "Bromine",
+    "protons": 35,
+    "neutrons": 45,
+    "shells": [2, 8, 18, 7],
+    "color": "#77dd77",
+    "category": "halogen",
+    "description": "The only nonmetallic element that is a liquid at room temperature."
+  },
+  "36": {
+    "symbol": "Kr",
+    "name": "Krypton",
+    "protons": 36,
+    "neutrons": 48,
+    "shells": [2, 8, 18, 8],
+    "color": "#ffb347",
+    "category": "noble gas",
+    "description": "A colorless, odorless noble gas used in high-speed photography."
+  },
+  "37": {
+    "symbol": "Rb",
+    "name": "Rubidium",
+    "protons": 37,
+    "neutrons": 48,
+    "shells": [2, 8, 18, 8, 1],
+    "color": "#b19cd9",
+    "category": "alkali metal",
+    "description": "A very soft, silvery-white metal that reacts violently with water."
+  },
+  "38": {
+    "symbol": "Sr",
+    "name": "Strontium",
+    "protons": 38,
+    "neutrons": 50,
+    "shells": [2, 8, 18, 8, 2],
+    "color": "#77dd77",
+    "category": "alkaline earth metal",
+    "description": "Used in fireworks to produce a brilliant red color."
+  },
+  "39": {
+    "symbol": "Y",
+    "name": "Yttrium",
+    "protons": 39,
+    "neutrons": 50,
+    "shells": [2, 8, 18, 9, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "A silvery-metallic transition metal often used in LEDs."
+  },
+  "40": {
+    "symbol": "Zr",
+    "name": "Zirconium",
+    "protons": 40,
+    "neutrons": 51,
+    "shells": [2, 8, 18, 10, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Highly resistant to corrosion; used in nuclear reactors."
+  },
+  "41": {
+    "symbol": "Nb",
+    "name": "Niobium",
+    "protons": 41,
+    "neutrons": 52,
+    "shells": [2, 8, 18, 12, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Used in alloys, tools, and superconducting magnets."
+  },
+  "42": {
+    "symbol": "Mo",
+    "name": "Molybdenum",
+    "protons": 42,
+    "neutrons": 54,
+    "shells": [2, 8, 18, 13, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "A silvery-white metal with a very high melting point."
+  },
+  "43": {
+    "symbol": "Tc",
+    "name": "Technetium",
+    "protons": 43,
+    "neutrons": 55,
+    "shells": [2, 8, 18, 13, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "The lightest element whose isotopes are all radioactive."
+  },
+  "44": {
+    "symbol": "Ru",
+    "name": "Ruthenium",
+    "protons": 44,
+    "neutrons": 57,
+    "shells": [2, 8, 18, 15, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "A rare transition metal used in wear-resistant electrical contacts."
+  },
+  "45": {
+    "symbol": "Rh",
+    "name": "Rhodium",
+    "protons": 45,
+    "neutrons": 58,
+    "shells": [2, 8, 18, 16, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Extremely rare and valuable; used as a catalyst in cars."
+  },
+  "46": {
+    "symbol": "Pd",
+    "name": "Palladium",
+    "protons": 46,
+    "neutrons": 60,
+    "shells": [2, 8, 18, 18, 0],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Used in electronics and the production of white gold."
+  },
+  "47": {
+    "symbol": "Ag",
+    "name": "Silver",
+    "protons": 47,
+    "neutrons": 61,
+    "shells": [2, 8, 18, 18, 1],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "The highest electrical and thermal conductivity of all metals."
+  },
+  "48": {
+    "symbol": "Cd",
+    "name": "Cadmium",
+    "protons": 48,
+    "neutrons": 64,
+    "shells": [2, 8, 18, 18, 2],
+    "color": "#aec6cf",
+    "category": "transition metal",
+    "description": "Used in rechargeable batteries and solar panels."
+  },
+  "49": {
+    "symbol": "In",
+    "name": "Indium",
+    "protons": 49,
+    "neutrons": 66,
+    "shells": [2, 8, 18, 18, 3],
+    "color": "#aec6cf",
+    "category": "post-transition metal",
+    "description": "A soft metal used in touchscreens and flat-panel displays."
+  },
+  "50": {
+    "symbol": "Sn",
+    "name": "Tin",
+    "protons": 50,
+    "neutrons": 69,
+    "shells": [2, 8, 18, 18, 4],
+    "color": "#aec6cf",
+    "category": "post-transition metal",
+    "description": "Known for its use in cans and soldering alloys."
+  }
+}

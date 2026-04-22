@@ -1,0 +1,28 @@
+{
+  "name": "huemind-atomic-sandbox",
+  "version": "1.0.0",
+  "description": "Interactive 3D STEM Atomic Viewer - Classroom Edition",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "STEM",
+    "Chemistry",
+    "Threejs",
+    "Electron"
+  ],
+  "author": "Huey | HueMind Studios",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.160.0",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Sandbox | HueMind Studios</title>
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/examples/jsm/controls/OrbitControls": "https://unpkg.com/three@0.160.0/examples/jsm/controls/OrbitControls.js",
+                "three/examples/jsm/postprocessing/EffectComposer.js": "https://unpkg.com/three@0.160.0/examples/jsm/postprocessing/EffectComposer.js",
+                "three/examples/jsm/postprocessing/RenderPass.js": "https://unpkg.com/three@0.160.0/examples/jsm/postprocessing/RenderPass.js",
+                "three/examples/jsm/postprocessing/SSAOPass.js": "https://unpkg.com/three@0.160.0/examples/jsm/postprocessing/SSAOPass.js",
+                "three/examples/jsm/postprocessing/ShaderPass.js": "https://unpkg.com/three@0.160.0/examples/jsm/postprocessing/ShaderPass.js",
+                "three/examples/jsm/shaders/CopyShader.js": "https://unpkg.com/three@0.160.0/examples/jsm/shaders/CopyShader.js",
+                "three/examples/jsm/shaders/SSAOShader.js": "https://unpkg.com/three@0.160.0/examples/jsm/shaders/SSAOShader.js",
+                "three/examples/jsm/math/SimplexNoise.js": "https://unpkg.com/three@0.160.0/examples/jsm/math/SimplexNoise.js",
+                "gsap": "https://cdn.skypack.dev/gsap"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    
+    <div id="canvas-container"></div>
+
+    <div id="ui-layer">
+        
+        <header>
+            <h1>HUEMIND <span class="thin">ATOMIC SANDBOX</span></h1>
+            <p class="tagline">STEM + | Classroom Edition</p>
+        </header>
+
+        <div id="info-card" class="glass-panel">
+            <div class="card-header">
+                <h1 id="el-name">Carbon</h1>
+                <span id="el-symbol" class="badge">C</span>
+            </div>
+            
+            <p id="el-description">The building block of all known life on Earth.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <label>Protons</label>
+                    <span id="stat-p">6</span>
+                </div>
+                <div class="stat-item">
+                    <label>Neutrons</label>
+                    <span id="stat-n">6</span>
+                </div>
+                <div class="stat-item">
+                    <label>Shells</label>
+                    <span id="stat-s">2, 4</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sidebar-container" class="glass-panel">
+            <div class="search-box">
+                <input type="text" id="el-search" placeholder="Search elements (e.g. Neon)..." autocomplete="off">
+            </div>
+            
+            <div id="sidebar-anchor"></div>
+        </div>
+
+        <nav id="model-controls" class="glass-panel">
+            <button class="active" data-model="rutherford">Rutherford</button>
+            <button data-model="bohr">Bohr</button>
+            <button data-model="quantum">Quantum</button>
+        </nav>
+    </div>
+    
+    <script type="module" src="./js/core/Scene.js"></script>
+</body>
+</html>
