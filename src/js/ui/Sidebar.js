@@ -18,7 +18,7 @@ class Sidebar {
 
     async init() {
         try {
-            const response = await fetch('./data/elements.json');
+            const response = await fetch('/data/elements.json');
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             
             this.elementsData = await response.json();
