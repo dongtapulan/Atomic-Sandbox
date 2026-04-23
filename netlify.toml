@@ -1,9 +1,4 @@
 [build]
-  # Tell Netlify to look inside 'src' for the project files
-  base = "src"
-  
-  # The command to build your Vite project
+  # No 'base' line here! Let it default to the root.
   command = "npm run build"
-  
-  # Where the final files will be (Vite defaults to 'dist')
   publish = "dist"

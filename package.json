@@ -5,9 +5,9 @@
   "main": "app/main.js",
   "scripts": {
     "start": "electron .",
-    "dev": "vite",
+    "dev": "vite src",
     "build": "vite build src",
-    "preview": "vite preview"
+    "preview": "vite preview src"
   },
   "keywords": [
     "STEM",
